@@ -8,7 +8,7 @@ This is a configuration repository for everything in place to create a stylish t
 ## Step 0 : Install Windows Terminal
 
 ## Step 1 : install Nerf font : Hack
-{Link](https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.1.0)
+[Link](https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.1.0)
 
 ## Step 2 : Change Windows Terminal Appearance
 Haave the base theme on One Hald Dark, using Acrylic in tab bar and in console
