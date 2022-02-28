@@ -60,12 +60,16 @@ nvim $PROFILE.CurrentUserCurrentHost
 ## Step 8 : Check aliases in new terminal and install oh my posh! & add prompt to install
 
 Install-Module posh-git -Scope CurrentUser -Force
+
 Install-Module oh-my-posh -Scope CurrentUser -Force
 
 nvim .config/powershell/user_profile.ps1
 
 > #Prompt
+> 
 > Import-Module posh-git
+> 
 > Import-Module oh-my-posh
+> 
 > Set-PoshPrompt Paradox
 
