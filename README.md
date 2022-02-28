@@ -36,6 +36,7 @@ scoop install neovim gcc
 ## Step 7 : Configure Aliases inside vim for powershell & activate profile
 
 mkdir .config/powershell
+
 nvim .config/powershell/user_profile.ps1
 > # Alias
 > Set-Alias vim nvim
@@ -46,7 +47,7 @@ nvim .config/powershell/user_profile.ps1
 > Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 
 
-nvim .$PROFILE.CurrentUserCurrentHost
+nvim $PROFILE.CurrentUserCurrentHost
 > . $env:USERPROFILE\.config\powershell\user_profile.ps1
 
 ## Step 8 : Check aliases in new terminal and install oh my posh! & add prompt to install
