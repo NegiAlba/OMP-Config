@@ -29,8 +29,9 @@ scoop install curl sudo jq
 
 ## Step 6 : Install git and neo vim
 
-winget install -e --id Git.Git
-scoop install nvim gcc
+winget install Git.Git
+
+scoop install neovim gcc
 
 ## Step 7 : Configure Aliases inside vim for powershell & activate profile
 
